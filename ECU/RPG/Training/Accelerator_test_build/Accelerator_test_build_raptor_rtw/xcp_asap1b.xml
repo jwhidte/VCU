@@ -1,0 +1,31 @@
+<XCP>
+        <project_uid>3OktHDQUkkmxG_nGPtp_0</project_uid>
+        <product_id>20037</product_id> <!--XCPProdID -->
+	<canbus>CAN1</canbus>
+	<baudrate>250k</baudrate>
+	<rxID>0x200</rxID>
+	<rxID_Type>Standard</rxID_Type>
+	<txID>0x300</txID>
+	<rxID_Type>Standard</rxID_Type>
+	<txID_Daq>0x300</txID_Daq>
+	<txID_Daq_Type>Standard</txID_Daq_Type>
+    <bcID>0x100</bcID>
+	<bcID_Type>Standard</bcID_Type>
+	<numDaqs>2</numDaqs>
+	<updateRate>5</updateRate>
+	<numODTs>10</numODTs>
+        <securityDll>raptor_XCPSecurity.dll</securityDll>
+	<daq Name="List_10ms">
+		<number>0</number>
+		<firstpid>0</firstpid>
+		<rate>10</rate>
+		<length>8</length>
+	</daq>
+	<daq Name="List_100ms">
+		<number>1</number>
+		<firstpid>10</firstpid>
+		<rate>100</rate>
+		<length>8</length>
+	</daq>
+    <ByteOrder>MSB_LAST</ByteOrder>
+</XCP>
